@@ -3,10 +3,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { Home } from './Home'
 import { FourOhFour } from './FourOhFour'
 import React from 'react'
+import {Navigation} from './Navigation'
 
 export const App = () => (
 	<>
 		<BrowserRouter>
+		<Navigation/>
 			<Routes>
 				<Route  path='/' element={<Home />} />
 				<Route path="*" element={<FourOhFour />} />
