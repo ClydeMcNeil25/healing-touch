@@ -1,0 +1,54 @@
+.background {
+    background-color: #212121
+}
+
+.background2 {
+    background-color: #323232;
+}
+
+.cardWidth {
+    width: 18rem;
+}
+
+/*Text Color*/
+.text {
+    color: #14b5ff
+}
+
+.button {
+    background: #0D7377;
+    border-color: #14FFEC;
+    color: white
+
+}
+
+.homeImage {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 47%;
+}
+
+.auBox {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.gitImage {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 11rem;
+}
+
+.aboutIcon {
+    width: 12rem;
+}

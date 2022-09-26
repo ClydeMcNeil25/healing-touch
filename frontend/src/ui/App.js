@@ -4,6 +4,7 @@ import { Home } from './Home'
 import { FourOhFour } from './FourOhFour'
 import React from 'react'
 import {Navigation} from './Navigation'
+import './styles/style.css'
 
 export const App = () => (
 	<>
