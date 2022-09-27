@@ -7,6 +7,7 @@ import {Navigation} from './Navigation'
 import './styles/style.css'
 import { About } from './About'
 import { Contact } from './Contact'
+import { Footer } from './Footer'
 
 export const App = () => (
 	<>
@@ -18,7 +19,7 @@ export const App = () => (
 				<Route path='/contact' element={<Contact/>}/>
 				<Route path="*" element={<FourOhFour />} />
 			</Routes>
+				<Footer/>
 		</BrowserRouter>
-
 	</>
 )
