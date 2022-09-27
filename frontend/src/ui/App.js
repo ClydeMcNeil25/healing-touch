@@ -5,6 +5,8 @@ import { FourOhFour } from './FourOhFour'
 import React from 'react'
 import {Navigation} from './Navigation'
 import './styles/style.css'
+import { About } from './About'
+import { Contact } from './Contact'
 
 export const App = () => (
 	<>
@@ -12,6 +14,8 @@ export const App = () => (
 		<Navigation/>
 			<Routes>
 				<Route  path='/' element={<Home />} />
+				<Route path='/about' element={<About/>}/>
+				<Route path='/contact' element={<Contact/>}/>
 				<Route path="*" element={<FourOhFour />} />
 			</Routes>
 		</BrowserRouter>

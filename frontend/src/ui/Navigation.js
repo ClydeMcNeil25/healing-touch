@@ -20,8 +20,8 @@ export function Navigation () {
           <Navbar.Toggle className="bg-white" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto fs-4">
-              <Nav.Link href="/squads" className="text">About</Nav.Link>
-              <Nav.Link href="/profile" className="text">Contact</Nav.Link>
+              <Nav.Link href="/about" className="text">About</Nav.Link>
+              <Nav.Link href="/contact" className="text">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
