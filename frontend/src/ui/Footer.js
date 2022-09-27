@@ -5,15 +5,21 @@ import KSLogo from './images/kslogo.png'
 export const Footer = () => {
    return (
       <>
-      <footer className="bg-black p-5 mt-5" id="footer">
-            <h1 className="text-white text-center">We're going to list socials</h1>
+      <footer className="bg-black p-3 text-center" id="footer">
+            <h3 className="text-white text-center">Check Our Socials</h3>
+            <div>
+                <Link to ={''}><img src={KSLogo} alt="KS Logo" width="100px"/></Link>
+                <Link to ={''}><img src={KSLogo} alt="KS Logo" width="100px"/></Link>
+            </div>
 
-            <div className="text-center mt-5">
+            <Link to ={'/contact'} className="text-white">Contact</Link>
+
+            <div className="mt-5">
                 <Link to ={'https://www.itskrucial.com/'} 
                     className="text-white">
                     <img src={KSLogo} 
                     alt="KS Logo" 
-                    width="75px"/>Designed by Krucial Studios
+                    width="50px"/>Designed by Krucial Studios
                 </Link>
             </div>
       </footer>

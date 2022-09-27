@@ -4,8 +4,9 @@ import { EmailForm } from "./EmailForm"
 export function Contact() {
    return (
       <>
+      <div className="p-5 m-5">
         <EmailForm/>
-        <h1 className="text-white text-center">Icons of your social medias will go here.</h1>
+        </div>
       </>
    )
 }

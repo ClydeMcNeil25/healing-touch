@@ -11,6 +11,9 @@ export const Home = () => {
          <LandingPage/>
       </section>
       <Cards/>
+      <section className="bg-white p-5 mt-5 rounded-1">
+
+      </section>
       </>
    )
 }
