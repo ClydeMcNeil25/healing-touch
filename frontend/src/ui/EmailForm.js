@@ -1,9 +1,10 @@
 import React from "react"
+import Button from 'react-bootstrap/Button';
 
 export function EmailForm() {
    return (
       <>
-        <section className="contact-form lead text-white p-4 lead d-flex justify-content-center" id="contact-me">
+        <section className="contact-form lead text-white p-5 lead d-flex justify-content-center" id="contact-me">
             <form method="POST" className="p-2 w-75" action="https://formsubmit.co/healingtouch780@gmail.com" enctype="multipart/form-data">
 
                 <h1 className="contact-title text-center mb-3">Book Your Appointment</h1>
@@ -26,14 +27,10 @@ export function EmailForm() {
                     <div className="col-md-6 vstack">
                             <label for="category" class="form-label">Choose Interest</label>
                             <select className="form-control" id="category" name="category">
-                                <option value="Choose Topic" class="text-white">Choose Inquiry</option>
-                                <option value="Employment">Employment</option>
-                                <option value="Graphic Design">Graphic Design</option>
-                                <option value="Web Development">Web Development</option>
-                                <option value="UX/UI Design">UX/UI Design</option>
-                                <option value="Video Production">Video Production</option>
-                                <option value="Audio Production">Audio Production</option>
-                                <option value="Collaborate">Collaborate</option>
+                                <option value="Choose Inquiry" class="text-white">Choose Inquiry</option>
+                                <option value="Massage Packages">Massage Packages</option>
+                                <option value="Price Quote">Price Quote</option>
+                                <option value="Services">Services</option>
                                 <option value="Other">Other</option>
                             </select>
                     </div>
@@ -43,7 +40,7 @@ export function EmailForm() {
                         <textarea name="message" required rows="3" maxlength="2000" className="form-control" id="messageInput" placeholder="2000 Character Max"></textarea>
                 </div>
                     <div class="container-fluid lead d-flex justify-content-center">
-                    <button className="button" type="submit">Submit</button>
+                    <Button variant="primary" className="button" type="submit">Submit</Button>
                 </div>
             </form>
         </section>
