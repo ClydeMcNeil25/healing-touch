@@ -1,18 +1,21 @@
 import React from "react"
 import { LandingPage } from "./LandingPage"
 import {Cards} from "./Cards"
+import LPImage from "./images/lpimage.png"
+import {EmailForm} from "./EmailForm"
 
 export const Home = () => {
    return (
       <>
       <section className="withIn">
-         <p className="w-100 fs-1 itemCenter text-white">Welcome to Daniel's Healing Touch</p>
+         <img src={LPImage} className="itemCenter w-50" alt="DHT Logo"/>
          <LandingPage/>
       </section>
       
       <section>
       <Cards/>
       </section>
+      <EmailForm/>
       </>
    )
 }

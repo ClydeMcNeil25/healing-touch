@@ -1,7 +1,7 @@
 import React from "react"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import PHImage from './images/placeholder01.jpg'
+import PHImage from './images/photo01.jpg'
 
 export function Cards() {
    return (
@@ -11,7 +11,7 @@ export function Cards() {
       <div className="container">
         <div className="row mt-5 gap-4">
 
-            <div className="col">
+            <div className="col d-flex justify-content-center">
                 <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage} />
                     <Card.Body className="text-center">
@@ -25,7 +25,7 @@ export function Cards() {
                 </Card>
             </div>
             
-            <div className="col">
+            <div className="col d-flex justify-content-center">
                 <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage}  />
                     <Card.Body className="text-center">
@@ -39,7 +39,7 @@ export function Cards() {
                 </Card>
             </div>
             
-            <div className="col">
+            <div className="col d-flex justify-content-center">
                 <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage}  />
                     <Card.Body className="text-center">
@@ -53,7 +53,7 @@ export function Cards() {
                 </Card>
             </div>
             
-            <div className="col">
+            <div className="col d-flex justify-content-center">
                 <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage}  />
                     <Card.Body className="text-center">
