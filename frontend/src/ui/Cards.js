@@ -12,7 +12,7 @@ export function Cards() {
         <div className="row mt-5 gap-4">
 
             <div className="col">
-                <Card style={{ width: '18rem' }}>
+                <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage} />
                     <Card.Body className="text-center">
                         <Card.Title>30 Min Massage</Card.Title>
@@ -20,13 +20,13 @@ export function Cards() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                        <Button variant="primary">Learn More</Button>
+                        <Button variant="primary" className="button">Learn More</Button>
                     </Card.Body>
                 </Card>
             </div>
             
             <div className="col">
-                <Card style={{ width: '18rem' }}>
+                <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage}  />
                     <Card.Body className="text-center">
                         <Card.Title>60 Min Massage</Card.Title>
@@ -34,13 +34,13 @@ export function Cards() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                        <Button variant="primary">Learn More</Button>
+                        <Button variant="primary" className="button">Learn More</Button>
                     </Card.Body>
                 </Card>
             </div>
             
             <div className="col">
-                <Card style={{ width: '18rem' }}>
+                <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage}  />
                     <Card.Body className="text-center">
                         <Card.Title>90 Min Massage</Card.Title>
@@ -48,13 +48,13 @@ export function Cards() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                        <Button variant="primary">Learn More</Button>
+                        <Button variant="primary" className="button">Learn More</Button>
                     </Card.Body>
                 </Card>
             </div>
             
             <div className="col">
-                <Card style={{ width: '18rem' }}>
+                <Card className="cardWidth">
                     <Card.Img variant="top" src={PHImage}  />
                     <Card.Body className="text-center">
                         <Card.Title>Back & Neck Massage</Card.Title>
@@ -62,7 +62,7 @@ export function Cards() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                        <Button variant="primary">Learn More</Button>
+                        <Button variant="primary" className="button">Learn More</Button>
                     </Card.Body>
                 </Card>
             </div>

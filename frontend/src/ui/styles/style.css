@@ -6,6 +6,8 @@
     background-color: #323232;
 }
 
+
+/* Card Width */
 .cardWidth {
     width: 18rem;
 }
@@ -18,37 +20,31 @@
 .button {
     background: #0D7377;
     border-color: #14FFEC;
-    color: white
-
+    color: white;
 }
 
+/*This contains all elements within each other with the use of .withIn, .homeImage, and .itemCenter*/
+.withIn {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
 .homeImage {
-    text-align: center;
+    object-fit: cover;
     display: block;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     width: 85%;
+    height: 85%;
 }
 
-.auBox {
+.itemCenter {
+    color: white;
     text-align: center;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 2rem;
-}
-
-.gitImage {
-    text-align: center;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 11rem;
-}
-
-.aboutIcon {
-    width: 12rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto
 }
