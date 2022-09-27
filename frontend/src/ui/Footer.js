@@ -5,7 +5,7 @@ import KSLogo from './images/kslogo.png'
 export const Footer = () => {
    return (
       <>
-      <footer className="bg-black p-3 text-center" id="footer">
+      <footer className="bg-black p-5 text-center" id="footer">
             <h3 className="text-white text-center">Check Our Socials</h3>
             <div>
                 <Link to ={''}><img src={KSLogo} alt="KS Logo" width="100px"/></Link>
