@@ -9,7 +9,7 @@
 
 /* Card Width */
 .cardWidth {
-    width: 18rem;
+    width: 15rem;
 }
 
 /*Text Color*/
@@ -17,9 +17,10 @@
     color: #14b5ff
 }
 
+/*Properties for all of the buttons*/
 .button {
-    background: #0d7377;
-    border-color: #14FFEC;
+    background: #009ec5;
+    border-color: #00c3ff;
     color: white;
 }
 
