@@ -8,6 +8,7 @@ import './styles/style.css'
 import { About } from './About'
 import { Contact } from './Contact'
 import { Footer } from './Footer'
+import { Thanks } from './Thanks'
 
 export const App = () => (
 	<>
@@ -17,6 +18,7 @@ export const App = () => (
 				<Route  path='/' element={<Home />} />
 				<Route path='/about' element={<About/>}/>
 				<Route path='/contact' element={<Contact/>}/>
+				<Route path='/thanks' element={<Thanks/>}/>
 				<Route path="*" element={<FourOhFour />} />
 			</Routes>
 				<Footer/>

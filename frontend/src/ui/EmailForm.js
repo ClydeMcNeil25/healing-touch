@@ -5,7 +5,7 @@ export function EmailForm() {
    return (
       <>
         <section className="contact-form lead text-white p-5 lead d-flex justify-content-center" id="contact-me">
-            <form method="POST" className="p-2 w-75" action="https://formsubmit.co/healingtouch780@gmail.com" enctype="multipart/form-data">
+            <form method="POST" className="p-2 w-75" action="https://formsubmit.co/clyde.mcneil.25@gmail.com" enctype="multipart/form-data">
 
                 <h1 className="contact-title text-center mb-5 pb-5">Schedule an Appointment</h1>
 
@@ -42,6 +42,9 @@ export function EmailForm() {
                     <div class="container-fluid lead d-flex justify-content-center">
                     <Button variant="primary" className="button" type="submit">Submit</Button>
                 </div>
+
+                <input type="hidden" name="_next" value="https://www.danielshealing.com/thanks/"/>
+
             </form>
         </section>
       </>
