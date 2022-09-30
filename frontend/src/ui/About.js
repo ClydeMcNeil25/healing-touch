@@ -10,11 +10,11 @@ export function About() {
                <img src={Bio} className="d-inline w-100 rounded-2 mb-3" alt="KS Logo"/>
             </div>
             <div className="col-md-6 text-white d-flex align-items-center vstack">
-            <div className="text-white text-center mb-2">
+               <div className="text-white text-center mb-2">
                   <h1>Daniel McNeil</h1>
                   <h5>Founder/Owner</h5>
                </div>
-               <div className="p-2 mb-5">
+               <div className="p-2 mb-5 pb-5">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu facilisis sed odio morbi quis commodo odio aenean sed. Lacus sed turpis tincidunt id aliquet. Facilisi morbi tempus iaculis urna id. Eu sem integer vitae justo eget magna fermentum iaculis. Rutrum quisque non tellus orci ac auctor augue. Sagittis purus sit amet volutpat consequat mauris nunc. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Amet consectetur adipiscing elit ut aliquam. Mus mauris vitae ultricies leo integer malesuada nunc. Libero justo laoreet sit amet cursus sit.</p>
 
                   <p>Magna ac placerat vestibulum lectus mauris ultrices eros in. Eu ultrices vitae auctor eu augue. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Etiam erat velit scelerisque in. Odio ut enim blandit volutpat maecenas. Tristique risus nec feugiat in fermentum. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Diam ut venenatis tellus in metus vulputate eu. Sem fringilla ut morbi tincidunt. Dui vivamus arcu felis bibendum ut. Risus nullam eget felis eget.</p>

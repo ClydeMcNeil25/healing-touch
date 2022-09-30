@@ -4,7 +4,7 @@ import { EmailForm } from "./EmailForm"
 export function Contact() {
    return (
       <>
-      <div className="">
+      <div className="mb-5 pb-5">
         <EmailForm/>
         </div>
       </>
