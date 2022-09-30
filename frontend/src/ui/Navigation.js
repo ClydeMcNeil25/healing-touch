@@ -7,8 +7,8 @@ import DHTCircle from './images/htcircle.png'
 export function Navigation () {
   return (
     <>
-      <Navbar expand="md">
-        <Container className="w-75 p-1">
+      <Navbar expand="md sticky-top">
+        <Container className="w-75 rounded-5">
             <Navbar.Brand href="/">
                 <img 
                 src={DHTCircle} 
@@ -17,11 +17,11 @@ export function Navigation () {
                 alt="DHT Logo Circle"
                 />
             </Navbar.Brand>
-          <Navbar.Toggle className="bg-white" aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto fs-4">
-              <Nav.Link href="/about" className="text">About</Nav.Link>
-              <Nav.Link href="/contact" className="text">Contact</Nav.Link>
+          <Navbar.Toggle className="navBackground" aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav d-flex justify-content-end">
+            <Nav className="me-auto fs-4 text-center">
+              <Nav.Link href="/about" className="text-white navBackground rounded-pill m-4">About</Nav.Link>
+              <Nav.Link href="/contact" className="text-white navBackground rounded-pill m-4">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

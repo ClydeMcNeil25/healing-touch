@@ -1,3 +1,5 @@
+
+
 .background {
     background-color: #212121
 }
@@ -17,11 +19,27 @@
     color: #14b5ff
 }
 
-/*Properties for all of the buttons*/
+/*Properties for all of the buttons with an animation effect*/
 .button {
-    background: #009ec5;
-    border-color: #00c3ff;
+    background: linear-gradient(#2871fa, #6717cd);
+    border-color: linear-gradient(#6717cd,#2871fa);
     color: white;
+    transition: .3s;
+}
+.button:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    } 
+    70% {
+        transform: scale(.9);
+    } 
+    100% {
+        transform: scale(1);
+    }
 }
 
 /*This contains all elements within each other with the use of .withIn, .homeImage, and .itemCenter*/
@@ -46,6 +64,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: fit-content;
-    margin: auto
+    margin: auto;
+}
+
+/*Navbar background color*/
+.navBackground {
+    background: linear-gradient(#2871fa, #6717cd) !important;
+    transition: background-color 200ms linear;
 }
