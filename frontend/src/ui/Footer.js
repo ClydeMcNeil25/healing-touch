@@ -17,12 +17,12 @@ export const Footer = () => {
             <Link to ={'/contact'} className="text-white">Contact</Link>
 
             <div className="mt-5">
-                <Link to ={'https://www.itskrucial.com/'} 
+                <a href={'https://www.itskrucial.com/'} 
                     className="text-white">
                     <img src={KSLogo} 
                     alt="KS Logo" 
                     width="50px"/>Designed by Krucial Studios
-                </Link>
+                </a>
             </div>
       </footer>
       </>
