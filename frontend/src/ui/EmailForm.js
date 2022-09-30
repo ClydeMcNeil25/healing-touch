@@ -43,7 +43,7 @@ export function EmailForm() {
                     <Button variant="primary" className="button" type="submit">Submit</Button>
                 </div>
 
-                <input type="hidden" name="_next" value="https://www.danielshealing.com/thanks/"/>
+                <input type="hidden" name="_next" value="https://www.danielshealing.com/"/>
 
             </form>
         </section>
