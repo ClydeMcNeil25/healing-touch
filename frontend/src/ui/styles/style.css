@@ -11,7 +11,12 @@
 
 /* Card Width */
 .cardWidth {
-    width: 15rem;
+    width: 18rem;
+}
+
+.cardWidth02 {
+    width: 35rem;
+    border: 0px;
 }
 
 /*Text Color*/
@@ -52,8 +57,14 @@
     object-fit: cover;
     display: block;
     margin: auto;
-    width: 85%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
+}
+.homeIcon {
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    width: 50rem;
 }
 
 .itemCenter {
@@ -71,4 +82,8 @@
 .navBackground {
     background: linear-gradient(#2871fa, #6717cd) !important;
     transition: background-color 200ms linear;
+}
+
+.serviceImg {
+    width: 20em;
 }

@@ -8,7 +8,7 @@ export const Home = () => {
    return (
       <>
       <section className="withIn">
-         <img src={LPImage} className="itemCenter w-50" alt="DHT Logo"/>
+         <img src={LPImage} className="itemCenter homeIcon" alt="DHT Logo"/>
          <LandingPage/>
       </section>
       <Cards/>

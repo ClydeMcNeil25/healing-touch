@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom'
 export function Navigation () {
   return (
     <>
-      <Navbar expand="md sticky-top">
-        <Container className="w-75 rounded-5">
+      <Navbar className="bg-black withIn" expand="md">
+        <Container>
             <Navbar.Brand href="/">
                 <img 
                 src={DHTCircle} 
@@ -18,11 +18,11 @@ export function Navigation () {
                 alt="DHT Logo Circle"
                 />
             </Navbar.Brand>
-          <Navbar.Toggle className="button" aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="background"/>
           <Navbar.Collapse id="basic-navbar-nav d-flex flex-row-reverse">
             <Nav className="me-auto fs-4 text-center">
-              <Link to = {"/about"} className="text-white button rounded-pill fs-5 p-2 m-4  text-decoration-none">About</Link>
-              <Link to = {"/contact"} className="text-white button rounded-pill fs-5 p-2 m-4 text-decoration-none">Contact</Link>
+              <Link to = {"/about"} className="text fs-5 p-2 m-4  text-decoration-none">About</Link>
+              <Link to = {"/contact"} className="text fs-5 p-2 m-4 text-decoration-none">Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
